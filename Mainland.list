@@ -261,7 +261,7 @@ HOST-SUFFIX,qiniucdn.com,Mainland
 HOST-SUFFIX,qiniudn.com,Mainland
 HOST-SUFFIX,qlogo.cn,Mainland
 HOST-SUFFIX,qpic.cn,Mainland
-;HOST-SUFFIX,qq.com,Mainland
+HOST-SUFFIX,qq.com,Mainland
 HOST-SUFFIX,qqurl.com,Mainland
 HOST-SUFFIX,rarbg.to,Mainland
 HOST-SUFFIX,redacted.ch,Mainland
@@ -275,7 +275,7 @@ HOST-SUFFIX,sinaimg.com,Mainland
 HOST-SUFFIX,sm.ms,Mainland
 HOST-SUFFIX,smartisan.com,Mainland
 HOST-SUFFIX,smzdm.com,Mainland
-;HOST-SUFFIX,snssdk.com,Mainland
+HOST-SUFFIX,snssdk.com,Mainland
 HOST-SUFFIX,snwx.com,Mainland
 HOST-SUFFIX,so.com,Mainland
 HOST-SUFFIX,sogou.com,Mainland
