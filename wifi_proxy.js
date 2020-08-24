@@ -16,14 +16,14 @@ for (var i = 0; i < proxywifi.length; i++) {
 	if (wifiname==proxywifi[i]){
 		$surge.setOutboundMode("direct");
 		
-		setTimeout(function(){$notification.post("SSID助手","您目前处于WIFI"+"SSID: "+wifiname,"Surge已变为直连模式");}, 3000);
+		setTimeout(function(){$notification.post("SSID助手","目前连接WIFI"+wifiname,"Surge更改为直连模式");}, 3000);
 		break;
 		
 	};
 	if (i==proxywifi.length-1){
 		$surge.setOutboundMode("rule");
 		
-		setTimeout(function(){$notification.post("SSID助手","Surge已变为规则模式","");}, 3000);
+		setTimeout(function(){$notification.post("SSID助手","Surge更改为规则模式","");}, 3000);
 	
 	}
 	
