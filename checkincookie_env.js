@@ -32,16 +32,16 @@ Modified by evilbutcher
 【Quantumult X】
 ----------------
 [rewrite_local]
-https:\/\/dleris\.best url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+https:\/\/dleris\.best url script-request-header https://raw.githubusercontent.com/L1MFORYOU/LIMFORYOU/master/checkincookie_env.js
 （其中https:\/\/cccat\.io需要替换为你自己的机场链接）
 [task_local]
-5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+5 0 * * * https://raw.githubusercontent.com/L1MFORYOU/LIMFORYOU/master/checkincookie_env.js
 【Surge】
 ----------------
 [Script]
-获取Cookie = type=http-request, pattern=https:\/\/dleris\.best, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+获取Cookie = type=http-request, pattern=https:\/\/dleris\.best, script-path=https://raw.githubusercontent.com/L1MFORYOU/LIMFORYOU/master/checkincookie_env.js
 （其中https:\/\/cccat\.io需要替换为你自己的机场链接）
-机场签到Cookie版 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+机场签到Cookie版 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/L1MFORYOU/LIMFORYOU/master/checkincookie_env.js
 【Loon】
 ----------------
 [Script]
