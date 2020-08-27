@@ -17,8 +17,9 @@ for (var i = 0; i < proxywifi.length; i++) {
 		$surge.setOutboundMode("direct");
 		
 		/*setTimeout(function(){$notification.post("SSID助手","目前连接WIFI"+wifiname,"Surge更改为直连模式");}, 3000);
-		break;
 		*/
+		break;
+		
 	};
 	if (i==proxywifi.length-1){
 		$surge.setOutboundMode("rule");
